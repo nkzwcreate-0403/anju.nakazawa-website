@@ -858,4 +858,15 @@ body {
   p {
     width: auto;
   }
+
+}
+
+@media screen and (max-width: 768px) {
+  .video video {
+    display: none;
+  }
+
+  .video {
+    background: url(img/hamon_sp.png) no-repeat center / cover;
+  }
 }
